@@ -1,0 +1,254 @@
+/* Resetting default margin and padding */
+body, h1, p, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting font styles */
+body {
+    background: linear-gradient(#c8ffd4,#fff8de);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #374151;
+}
+
+/* Header styles */
+header {
+    background-color: #f3f4f6;
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #111827;
+}
+
+.header .container a:hover {
+    color: #4b5563;
+}
+
+.header .container nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #6b7280;
+}
+
+.header .container nav a:hover {
+    color: #4b5563;
+}
+
+.header .container button {
+    background-color: #4b5563;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header .container button:hover {
+    background-color: #374151;
+}
+
+/* Product description section styles */
+.section-product-description {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.section-product-description .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-product-description .container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-product-description .container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.section-product-description .container button {
+    background-color: #4b5563;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-product-description .container button:hover {
+    background-color: #374151;
+}
+
+/* Product grid section styles */
+.section-product-grid {
+    padding: 80px 0;
+    background-color: #f3f4f6;
+}
+
+.section-product-grid .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    flex-basis: calc(33.333% - 30px);
+    margin-bottom: 30px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Testimonial section styles */
+.section-testimonial {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.section-testimonial .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-item {
+    flex-basis: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.testimonial-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Stats section styles */
+.section-stats {
+    padding: 80px 0;
+    background-color: #f3f4f6;
+}
+
+.section-stats .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats-item {
+    text-align: center;
+}
+
+.stats-item h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+.section-contact {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.section-contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-contact .container form {
+    flex-basis: 60%;
+}
+
+.section-contact .container form input,
+.section-contact .container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section-contact .container form button {
+    background-color: #4b5563;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-contact .container form button:hover {
+    background-color: #374151;
+}
+
+/* Footer styles */
+footer {
+    padding: 30px 0;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+footer .container a {
+    text-decoration: none;
+    color: #111827;
+}
+
+footer .container a:hover {
+    color: #4b5563;
+}
+
